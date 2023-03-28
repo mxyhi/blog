@@ -104,6 +104,11 @@ export default hopeTheme({
       repoId: 'R_kgDOJB9vig',
       category: 'Announcements',
       categoryId: 'DIC_kwDOJB9vis4CUcEH',
+      strict: true,
+      mapping: 'pathname',
+      reactionsEnabled: true,
+      inputPosition: 'top',
+      lazyLoading: true,
     },
 
     // all features are enabled for demo, only preserve features you need here
