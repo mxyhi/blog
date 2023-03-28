@@ -7,9 +7,9 @@ description: mxy的博客首页
 # heroImage: /logo.svg
 # heroImage: /self-logo.png
 heroText: M
-# heroFullScreen: true
+heroFullScreen: true
 bgImage: /bg.png
-# tagline: 说点什么好呢...
+tagline: 分久必合 | 合久必分
 projects:
   - icon: project
     name: 项目名称
