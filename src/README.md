@@ -6,6 +6,7 @@ title: 博客主页
 # heroImage: /logo.svg
 heroText: 躺平人生
 heroFullScreen: true
+bgImage: /bg.png
 tagline: 停下来看看，才有力气往前走
 projects:
   - icon: project
