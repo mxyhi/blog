@@ -14,6 +14,8 @@ export default hopeTheme({
   contributors: true, // 显示贡献者
   iconAssets: 'iconfont',
 
+  // 显示页脚
+  displayFooter: false,
   logo: '/self-logo.png',
 
   repo: 'mxyhi/blog',

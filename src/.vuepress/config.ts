@@ -11,6 +11,7 @@ export default defineUserConfig({
       description: 'mxy 博客',
     },
   },
+
   plugins: [
     gitPlugin({
       contributors: true,
