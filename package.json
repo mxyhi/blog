@@ -10,7 +10,7 @@
     "docs:dev": "vuepress dev src",
     "docs:update-package": "pnpm dlx vp-update"
   },
-  "homepage": "https://mxyhi.github.io/blog",
+  "homepage": "https://mxyhi.github.io/blog/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mxyhi/blog.git"
