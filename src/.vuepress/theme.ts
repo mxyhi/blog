@@ -8,8 +8,10 @@ export default hopeTheme({
   author: {
     name: 'm',
     url: 'https://mxyhi.github.io/blog/',
+    email: '2528988582@qq.com',
   },
-
+  lastUpdated: true, // 显示最后更新时间
+  contributors: true, // 显示贡献者
   iconAssets: 'iconfont',
 
   logo: '/self-logo.png',

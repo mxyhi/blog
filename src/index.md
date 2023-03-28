@@ -3,6 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
+description: mxy的博客首页
 # heroImage: /logo.svg
 # heroImage: /self-logo.png
 heroText: M

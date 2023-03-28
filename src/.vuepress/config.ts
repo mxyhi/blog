@@ -1,17 +1,17 @@
-import { defineUserConfig } from "vuepress";
-import theme from "./theme.js";
+import { defineUserConfig } from 'vuepress';
+import theme from './theme.js';
 
 export default defineUserConfig({
-  base: "/blog/",
+  base: '/blog/',
 
   locales: {
-    "/": {
-      lang: "zh-CN",
-      title: "m blog",
-      description: "mxy的博客",
+    '/': {
+      lang: 'zh-CN',
+      title: 'm blog',
+      description: 'mxy的博客',
     },
   },
-
+  plugins: [[]],
   theme,
 
   // Enable it with pwa
