@@ -1,3 +1,3 @@
 # blog
 
-### url [https://mxyhi.github.io/blog/](https://mxyhi.github.io/blog/)
+### url [https://mxyhi.github.io/blog](https://mxyhi.github.io/blog)

@@ -1,6 +1,5 @@
 ---
 icon: edit
-date: 2022-01-12
 category:
   - 蔬菜
 tag:

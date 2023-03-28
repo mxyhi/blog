@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: 'm',
-    url: 'https://mxyhi.github.io/blog/',
+    url: 'https://mxyhi.github.io/blog',
     email: '2528988582@qq.com',
   },
   lastUpdated: true, // 显示最后更新时间
@@ -16,9 +16,9 @@ export default hopeTheme({
 
   logo: '/self-logo.png',
 
-  repo: 'vuepress-theme-hope/vuepress-theme-hope',
+  repo: 'mxyhi/blog',
 
-  docsDir: 'docs',
+  docsDir: 'src',
 
   blog: {
     medias: {
@@ -76,8 +76,9 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: '一个js开发者',
+        description: 'web开发者',
         intro: '/intro.html',
+        roundAvatar: true,
       },
 
       // page meta

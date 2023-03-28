@@ -13,8 +13,8 @@ export const zhNavbar = navbar([
         icon: 'edit',
         prefix: 'apple/',
         children: [
-          { text: '苹果1', icon: 'edit', link: '1' },
-          { text: '苹果2', icon: 'edit', link: '2' },
+          { text: '苹果 1', icon: 'edit', link: '1' },
+          { text: '苹果 2', icon: 'edit', link: '2' },
           '3',
           '4',
         ],
