@@ -2,8 +2,9 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
+title: 主页
 # heroImage: /logo.svg
+# heroImage: /self-logo.png
 heroText: 躺平人生
 heroFullScreen: true
 bgImage: /bg.png

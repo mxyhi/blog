@@ -6,13 +6,13 @@ export default hopeTheme({
   hostname: 'https://mxyhi.github.io',
 
   author: {
-    name: 'mxyhi',
+    name: 'mxy',
     url: 'https://mxyhi.github.io/blog/',
   },
 
   iconAssets: 'iconfont',
 
-  logo: '/logo.svg',
+  logo: '/self-logo.png',
 
   repo: 'vuepress-theme-hope/vuepress-theme-hope',
 
@@ -74,7 +74,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: '一个前端开发者',
+        description: '一个js开发者',
         intro: '/intro.html',
       },
 
