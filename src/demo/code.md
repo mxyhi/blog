@@ -8,10 +8,20 @@ tag:
 ## 代码
 
 <span> {{ age }} </span>
-<button @click="age++">age++</button>
+<button class="btn" @click="age++">age++</button>
 
-<script  setup>
+<script setup>
 import { ref } from 'vue'
 
 const age=ref(18)
 </script>
+
+<style lang="scss" scoped>
+    .btn{
+        background: #fff;
+        outline: none;
+        &:active{
+            background: gray;
+        }
+    }
+</style>
