@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: 'https://mxyhi.github.io',
 
   author: {
-    name: 'mxy',
+    name: 'm',
     url: 'https://mxyhi.github.io/blog/',
   },
 

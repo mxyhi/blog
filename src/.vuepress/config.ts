@@ -7,7 +7,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "mxy",
+      title: "m blog",
       description: "mxy的博客",
     },
   },
