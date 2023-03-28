@@ -15,6 +15,9 @@ export default defineUserConfig({
   plugins: [
     gitPlugin({
       // 配置项
+      contributors: true,
+      createdTime: true,
+      updatedTime: true,
     }),
   ],
   theme,
