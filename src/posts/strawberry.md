@@ -1,7 +1,5 @@
 ---
 icon: edit
-date: true
-lastUpdated: true
 category:
   - 水果
   - 草莓
@@ -9,7 +7,6 @@ tag:
   - 红
   - 小
 ---
-s
 # 草莓
 
 ## 标题 2
