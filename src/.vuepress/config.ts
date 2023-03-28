@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress';
 import theme from './theme.js';
 import { gitPlugin } from '@vuepress/plugin-git';
+import { shikiPlugin } from "@vuepress/plugin-shiki";
 
 export default defineUserConfig({
   base: '/blog/',
@@ -17,6 +18,10 @@ export default defineUserConfig({
       contributors: true,
       createdTime: true,
       updatedTime: true,
+    }),
+    shikiPlugin({
+      // 你的选项
+      theme: "one-dark-pro",
     }),
   ],
   theme,
