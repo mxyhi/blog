@@ -1,8 +1,6 @@
 import { ImageResponse } from "next/og";
-import { docs, meta } from "@/.source";
-import { loader } from "fumadocs-core/source";
-import { createMDXSource } from "fumadocs-mdx";
 import { getAuthor, isValidAuthor, type AuthorKey } from "@/lib/authors";
+import { blogSource } from "@/lib/blog-source";
 
 export const runtime = "nodejs";
 export const alt = "Blog Post";
@@ -11,11 +9,6 @@ export const size = {
   height: 630,
 };
 export const contentType = "image/png";
-
-const blogSource = loader({
-  baseUrl: "/blog",
-  source: createMDXSource(docs, meta),
-});
 
 const getAssetData = async (authorAvatar?: string) => {
   try {

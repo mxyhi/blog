@@ -1,13 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { docs, meta } from "@/.source";
-import { loader } from "fumadocs-core/source";
-import { createMDXSource } from "fumadocs-mdx";
 import Link from "next/link";
-
-const blogSource = loader({
-  baseUrl: "/blog",
-  source: createMDXSource(docs, meta),
-});
+import { blogSource } from "@/lib/blog-source";
 
 const formatDate = (date: Date): string => {
   return date.toLocaleDateString("en-US", {

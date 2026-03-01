@@ -1,7 +1,4 @@
-import { docs, meta } from "@/.source";
 import { DocsBody } from "fumadocs-ui/page";
-import { loader } from "fumadocs-core/source";
-import { createMDXSource } from "fumadocs-mdx";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -16,15 +13,11 @@ import { PromoContent } from "@/components/promo-content";
 import { getAuthor, isValidAuthor } from "@/lib/authors";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import { HashScrollHandler } from "@/components/hash-scroll-handler";
+import { blogSource } from "@/lib/blog-source";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
-
-const blogSource = loader({
-  baseUrl: "/blog",
-  source: createMDXSource(docs, meta),
-});
 
 const formatDate = (date: Date): string => {
   return date.toLocaleDateString("en-US", {
