@@ -4,11 +4,11 @@ import { siteConfig } from "@/lib/site";
 export const metadataKeywords = [
     "Blog",
     "React",
-    "MagicUI Blog",
-    "MagicUI Blog Template",
-    "MagicUI Blog Template Next.js",
-    "MagicUI Blog Template Tailwind",
-    "MagicUI Blog Template Shadcn",
+    "Mxyhi Bolg",
+    "Mxyhi Bolg Template",
+    "Mxyhi Bolg Template Next.js",
+    "Mxyhi Bolg Template Tailwind",
+    "Mxyhi Bolg Template Shadcn",
     "Next.js Blog",
     "React Blog",
     "Web Development",
@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     keywords: metadataKeywords,
     authors: [
         {
-            name: "MagicUI Team",
+            name: "Mxyhi Bolg Team",
             url: "https://magicui.design",
         },
     ],
-    creator: "MagicUI",
+    creator: "Mxyhi Bolg",
     openGraph: {
         type: "website",
         locale: "en_US",

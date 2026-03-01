@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Blog - Magic UI";
+export const alt = "Mxyhi Bolg";
 export const size = {
   width: 1200,
   height: 630,
@@ -109,11 +109,11 @@ export default async function Image() {
                 assetData?.logoBase64 ||
                 `${process.env.NEXT_PUBLIC_SITE_URL}/magicui-logo.png`
               }
-              alt="MagicUI Logo"
+              alt="Mxyhi Bolg Logo"
               width={100}
               height={100}
             />
-            <h1 style={styles.title}>Blog</h1>
+            <h1 style={styles.title}>Mxyhi Bolg</h1>
             <p style={styles.description}>
               A blog about design, development, and other things.
             </p>

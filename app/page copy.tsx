@@ -81,10 +81,10 @@ export default async function HomePage({
         <div className="max-w-7xl mx-auto w-full">
           <div className="flex flex-col gap-2">
             <h1 className="font-medium text-4xl md:text-5xl tracking-tighter">
-              Magic UI Blog
+              Mxyhi Bolg
             </h1>
             <p className="text-muted-foreground text-sm md:text-base lg:text-lg">
-              Latest news and updates from Magic UI.
+              Latest news and updates from Mxyhi Bolg.
             </p>
           </div>
         </div>
